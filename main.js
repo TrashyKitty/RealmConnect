@@ -20,7 +20,7 @@ const main = async () => {
         // The joinability of the session. Joinability.FriendsOfFriends, Joinability.FriendsOnly, Joinability.InviteOnly
         joinability: config.friendConnect.inviteOnly ? Joinability.InviteOnly : Joinability.FriendsOnly
     });
-    if (config.automaticRefriend) portal.use(new bedrockPortal.Modules.AutoFriendAccept())
+    if (config.automaticRefriend) portal.use(bedrockPortal.Modules.AutoFriendAccept)
     await portal.start();
     let client = bedrockProtocol.createClient({
         "realms": {
