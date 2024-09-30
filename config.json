@@ -1,0 +1,15 @@
+{
+    "ip": "geyserconnect.net",
+    "port": 19132,
+    "realmCode": "bBbg4yKg8zxfhmg",
+    "botUsername": "PowerTrash5771",
+    "kickMessage": "§9Invited to server!",
+    "automaticRefriend": true,
+    "friendConnect": {
+        "hostName": "Host Name",
+        "name": "Name",
+        "version": "1.20.30",
+        "memberCount": 1,
+        "maxMemberCount": 2
+    }
+}
